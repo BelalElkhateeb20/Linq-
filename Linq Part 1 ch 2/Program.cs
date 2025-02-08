@@ -91,8 +91,10 @@ namespace Linq_Part_1_ch_2
         }
         public class Employee
         {
+
  
             public int Id { get; set; }
+            public int id { get; set; }
             public string Name { get; set; }
             public decimal Salary { get; set; }
             public string Department { get; set; }
