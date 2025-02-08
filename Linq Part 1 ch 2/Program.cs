@@ -87,7 +87,7 @@ namespace Linq_Part_1_ch_2
             var w = "hello";
             var p = "hello";
             Console.WriteLine(p == w); //return true cus string is a reference type & this Comparison between the content
-
+            Console.ReadLine();
         }
         public class Employee
         {
