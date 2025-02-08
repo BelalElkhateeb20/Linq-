@@ -91,10 +91,7 @@ namespace Linq_Part_1_ch_2
         }
         public class Employee
         {
-            public override bool Equals(object? obj)
-            {
-                return base.Equals(obj);
-            }
+ 
             public int Id { get; set; }
             public string Name { get; set; }
             public decimal Salary { get; set; }
